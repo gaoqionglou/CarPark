@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.example.parkapp"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         //指定room.schemaLocation生成的文件路径
