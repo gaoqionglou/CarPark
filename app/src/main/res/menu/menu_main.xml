@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.parkapp.MainActivity">
+    <item
+        android:id="@+id/action_add_auth_car"
+        android:orderInCategory="100"
+        android:title="管理授权车辆"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_pay"
+        android:orderInCategory="100"
+        android:title="设置收费标准 元/分钟"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_sum"
+        android:orderInCategory="100"
+        android:title="设置车位数量"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_car_history"
+        android:orderInCategory="100"
+        android:title="查看停车场情况"
+        app:showAsAction="never" />
+</menu>
