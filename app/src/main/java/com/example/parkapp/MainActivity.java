@@ -52,7 +52,7 @@ public class MainActivity extends BaseActivity {
     private Button mBtnCarOut;
 
 
-    @SuppressLint("DefaultLocale")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);//savadInstanceState是保存当前Activity中的信息
